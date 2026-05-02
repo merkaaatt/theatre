@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Афіша вистав театру імені Івана Франка — розклад, квитки онлайн. Березень 2026.">
+    <title>Афіша — Театр імені Івана Франка</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">ГОЛОВНА</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ПРО ТЕАТР</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="afisha.html">НАШІ ВИСТАВИ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">КОНТАКТИ</a></li>
+                    <li class="nav-item ms-2"><a class="nav-link nav-phone" href="tel:+380441111111">+38 (050)
+                            111-11-11</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="page-hero">
+        <img src="images/vistava2.jpg" alt="Афіша вистав" class="page-hero-bg" onerror="this.style.opacity='0'">
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+            <h1 class="page-hero-title">АФІША</h1>
+        </div>
+    </section>
+
+    <div class="filter-bar">
+        <div class="container">
+            <form class="d-flex gap-2 align-items-center" id="searchForm">
+                <label for="searchInput" class="visually-hidden">Пошук вистави</label>
+                <input type="search" id="searchInput" name="search" class="filter-input" placeholder="Шукати тут...">
+                <button type="submit" class="btn-gold">ШУКАТИ</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="section-dark py-5">
+        <div class="container">
+            <h2 class="section-title mb-4">ТРАВЕНЬ 2026</h2>
+            <div class="row g-3" id="showsGrid">
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/ukradenesh.jpg" alt="Украдене щастя" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">01.05 | 18:00</span>
+                            <h3 class="afisha-title">УКРАДЕНЕ ЩАСТЯ</h3>
+                            <p class="afisha-author">Іван Франко</p>
+                            <p class="afisha-price">від 230 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/natpol.jpg" alt="Наталка Полтавка" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">02.05 | 17:00</span>
+                            <h3 class="afisha-title">НАТАЛКА ПОЛТАВКА</h3>
+                            <p class="afisha-author">Іван Котляревський</p>
+                            <p class="afisha-price">від 230 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/sklvzir.jpg" alt="Скляний звіринець" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">03.05 | 17:00</span>
+                            <h3 class="afisha-title">СКЛЯНИЙ ЗВІРИНЕЦЬ</h3>
+                            <p class="afisha-author">Теннесі Вільямс</p>
+                            <p class="afisha-price">від 260 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/buna.jpg" alt="Буна" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">04.05 | 19:00</span>
+                            <h3 class="afisha-title">БУНА</h3>
+                            <p class="afisha-author">Віра Маковій</p>
+                            <p class="afisha-price">від 230 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/tryyov.jpg" alt="Три товариші" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">05.05 | 18:00</span>
+                            <h3 class="afisha-title">ТРИ ТОВАРИШІ</h3>
+                            <p class="afisha-author">Е.М. Ремарк</p>
+                            <p class="afisha-price">від 230 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/konotop.jpg" alt="Конотопська відьма" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">06.05 | 15:00</span>
+                            <h3 class="afisha-title">КОНОТОПСЬКА ВІДЬМА</h3>
+                            <p class="afisha-author">Г. Квітка-Основ'яненко</p>
+                            <p class="afisha-price">від 270 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/kaydash.jpg" alt="Кайдашева сімя" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">07.05 | 17:00</span>
+                            <h3 class="afisha-title">КАЙДАШЕВА СІМ'Я</h3>
+                            <p class="afisha-author">І. Нечуй-Левицький</p>
+                            <p class="afisha-price">від 300 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3 show-item">
+                    <div class="afisha-card">
+                        <img src="images/tryyov.jpg" alt="Три товариші" class="afisha-poster"
+                            onerror="this.classList.add('placeholder-box')">
+                        <div class="afisha-info">
+                            <span class="show-date-badge">08.05 | 18:00</span>
+                            <h3 class="afisha-title">ТРИ ТОВАРИШІ</h3>
+                            <p class="afisha-author">Е.М. Ремарк</p>
+                            <p class="afisha-price">від 230 ₴</p>
+                            <a href="#" class="btn-gold-sm">КУПИТИ КВИТОК</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+                <button class="btn-gold-outline" id="loadMore" type="button">ЗАВАНТАЖИТИ ЩЕ</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer" id="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <p>+38 (044) 111-11-11</p>
+                    <p>+38 (099) 111-11-11</p>
+                    <p>frankytheatre@gmail.com</p>
+                    <p>м. Київ, вул. Івана Франка, 3</p>
+                </div>
+                <div class="col-md-4 d-none d-md-block">
+                    <p><strong style="color:#c9a84c;">КАСА ПРАЦЮЄ</strong></p>
+                    <p>Понеділок з 12:00 до 18:00</p>
+                    <p>ВТ-НД з 10:00 до 18:00</p>
+                    <p>Телефон каси: +38 (050) 111-11-11</p>
+                </div>
+                <div class="col-md-4">
+                    <form action="https://formspree.io/f/YOUR_CODE" method="POST">
+                        <label for="emailAfisha" class="visually-hidden">E-mail</label>
+                        <input type="email" id="emailAfisha" name="email" class="footer-input" placeholder="E-mail"
+                            required>
+                        <button type="submit" class="btn-gold w-100 mt-2">ПІДПИСАТИСЬ НА НОВИНИ</button>
+                    </form>
+                </div>
+            </div>
+            <p class="footer-copy">&copy; 2026 Театр імені Івана Франка</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
